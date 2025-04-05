@@ -43,7 +43,7 @@ export default function Home() {
         </div>
 
         <button
-          className="mt-6 w-full py-3 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-lg font-semibold"
+          className="mt-6 w-full py-3 rounded-full bg-gradient-to-r from-blue-500 to-indigo-500 text-white text-lg font-semibold z-10"
           onClick={() => router.push("/player")}
         >
           Start

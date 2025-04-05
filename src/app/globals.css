@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+body,
+html {
+  overflow-x: visible; /* Ensure no clipping on the X-axis */
+  overflow-y: visible; /* Ensure no clipping on the Y-axis */
+}
